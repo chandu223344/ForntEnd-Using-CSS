@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+:root {
+    --main-bg-color: #2834f0;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:var(--main-bg-color);
+    font-family: 'Signika', sans-serif;
+    
+}
+nav{
+    display: flex;
+    text-align: none;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+  
+}
+.logo img{
+    width: 50px;
+    align-items: center;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav ul li{
+    text-decoration: none;
+    padding: 0 15px;
+    list-style-type:none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    color:black;
+    /* background-color: #080b2e; */
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 30px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+
+}
+.search button{
+    font-family: 'Signika', sans-serif;
+    color:white;
+    font-weight: 700px;
+
+}
+.search button:hover{
+    
+    color:black;
+    font-weight: 900px;
+}
+.login button{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-family: 'Signika', sans-serif;
+    color:white;
+    /* font-weight: 700px; */
+    margin: 13px;
+    
+}
+.login button:hover{
+    
+    color:black;
+    font-weight: 900px;
+}
+
+.slider{
+    width: 80vw;
+    margin: 12px 70px;
+}
+.slider img{
+    width: 85vw;
+
+
+}
+.card{
+    width:95vw;
+    margin: 12px auto;
+    display: flex;
+    /* background-color: blue; */
+    overflow: scroll;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    margin: 0 15px;
+    
+}
+.container{
+    /* height:79vh ; */
+    min-width:calc(100vh-12vh-58px);
+    /* display:inline-block; */
+    /* justify-content: center; */
+   
+}
+.container h2{
+    font-family: 'Signika', sans-serif;
+    margin: 12px;
+}
+.container img{
+    justify-content: center;
+    /* width: 30vw; */
+}
+
+
+footer{
+    height:12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Signika', sans-serif;
+    align-items: center;
+    
+}
